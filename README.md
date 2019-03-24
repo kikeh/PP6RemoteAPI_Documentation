@@ -4,6 +4,48 @@
 Based on [jeffmikels repository](https://github.com/jeffmikels/ProPresenter-API), I created (and went a bit further) on creating a documentation for the undocumented ProPresenter6 Websocket API. I am currently working on a generic Python API Client that I will be uploading soon, so it is easier to build apps based on it. These are not all the possible commands, but the ones that are used by the ProPresenter Remote app.
 If anyone find any other new commands and want to collaborate, you are welcome to create Pull Requests.
 
+## Index
+
+* (Actions)[#actions]
+    * (authenticate)[#authenticate]
+    * (clockRequest)[#clockRequest]
+    * (messageRequest)[#messageRequest]
+    * (libraryRequest)[#libraryRequest]
+    * (playRequestAll)[#playRequestAll]
+    * (audioRequest)[#audioRequest]
+    * (audioCurrentSong)[#audioCurrentSong]
+    * (audioStartCue)[#audioStartCue]
+    * (audioPlayPause)[#audioPlayPause]
+    * (telestratorSettings)[#telestratorSettings]
+    * (presentationRequest)[#presentationRequest]
+    * (presentationTriggerIndex)[#presentationTriggerIndex]
+    * (presentationTriggerNext)[#presentationTriggerNext]
+    * (presentationTriggerPrevious)[#presentationTriggerPrevious]
+    * (presentationSlideIndex)[#presentationSlideIndex]
+    * (presentationCurrent)[#presentationCurrent]
+    * (clearAll)[#clearAll]
+    * (clearVideo)[#clearVideo]
+    * (clearAudio)[#clearAudio]
+    * (clearText)[#clearText]
+    * (clearProps)[#clearProps]
+    * (clearToLogo)[#clearToLogo]
+    * (clockUpdate)[#clockUpdate]
+    * (clockStart)[#clockStart]
+    * (clockStop)[#clockStop]
+    * (clockReset)[#clockReset]
+    * (clockStartAll)[#clockStartAll]
+    * (clockStopAll)[#clockStopAll]
+    * (clockResetAll)[#clockResetAll]
+    * (messageSend)[#messageSend]
+    * (stageDisplaySets)[#stageDisplaySets]
+    * (stageDisplaySendMessage)[#stageDisplaySendMessage]
+    * (stageDisplayHideMessage)[#stageDisplayHideMessage]
+    * (stageDisplaySetIndex)[#stageDisplaySetIndex]
+* (Sent from server)[#sent-from-server]
+    * (clockNameChanged)[#clockNameChanged]
+    * (clockStopAll)[#clockStopAll]
+    * (audioTriggered)[#audioTriggered]
+
 ## Actions
 
 ### authenticate
