@@ -6,45 +6,45 @@ If anyone find any other new commands and want to collaborate, you are welcome t
 
 ## Index
 
-* (Actions)[#actions]
-    * (authenticate)[#authenticate]
-    * (clockRequest)[#clockRequest]
-    * (messageRequest)[#messageRequest]
-    * (libraryRequest)[#libraryRequest]
-    * (playRequestAll)[#playRequestAll]
-    * (audioRequest)[#audioRequest]
-    * (audioCurrentSong)[#audioCurrentSong]
-    * (audioStartCue)[#audioStartCue]
-    * (audioPlayPause)[#audioPlayPause]
-    * (telestratorSettings)[#telestratorSettings]
-    * (presentationRequest)[#presentationRequest]
-    * (presentationTriggerIndex)[#presentationTriggerIndex]
-    * (presentationTriggerNext)[#presentationTriggerNext]
-    * (presentationTriggerPrevious)[#presentationTriggerPrevious]
-    * (presentationSlideIndex)[#presentationSlideIndex]
-    * (presentationCurrent)[#presentationCurrent]
-    * (clearAll)[#clearAll]
-    * (clearVideo)[#clearVideo]
-    * (clearAudio)[#clearAudio]
-    * (clearText)[#clearText]
-    * (clearProps)[#clearProps]
-    * (clearToLogo)[#clearToLogo]
-    * (clockUpdate)[#clockUpdate]
-    * (clockStart)[#clockStart]
-    * (clockStop)[#clockStop]
-    * (clockReset)[#clockReset]
-    * (clockStartAll)[#clockStartAll]
-    * (clockStopAll)[#clockStopAll]
-    * (clockResetAll)[#clockResetAll]
-    * (messageSend)[#messageSend]
-    * (stageDisplaySets)[#stageDisplaySets]
-    * (stageDisplaySendMessage)[#stageDisplaySendMessage]
-    * (stageDisplayHideMessage)[#stageDisplayHideMessage]
-    * (stageDisplaySetIndex)[#stageDisplaySetIndex]
-* (Sent from server)[#sent-from-server]
-    * (clockNameChanged)[#clockNameChanged]
-    * (clockStopAll)[#clockStopAll]
-    * (audioTriggered)[#audioTriggered]
+* [Actions](actions)
+    * [authenticate](authenticate)
+    * [clockRequest](clockRequest)
+    * [messageRequest](messageRequest)
+    * [libraryRequest](libraryRequest)
+    * [playRequestAll](playRequestAll)
+    * [audioRequest](audioRequest)
+    * [audioCurrentSong](audioCurrentSong)
+    * [audioStartCue](audioStartCue)
+    * [audioPlayPause](audioPlayPause)
+    * [telestratorSettings](telestratorSettings)
+    * [presentationRequest](presentationRequest)
+    * [presentationTriggerIndex](presentationTriggerIndex)
+    * [presentationTriggerNext](presentationTriggerNext)
+    * [presentationTriggerPrevious](presentationTriggerPrevious)
+    * [presentationSlideIndex](presentationSlideIndex)
+    * [presentationCurrent](presentationCurrent)
+    * [clearAll](clearAll)
+    * [clearVideo](clearVideo)
+    * [clearAudio](clearAudio)
+    * [clearText](clearText)
+    * [clearProps](clearProps)
+    * [clearToLogo](clearToLogo)
+    * [clockUpdate](clockUpdate)
+    * [clockStart](clockStart)
+    * [clockStop](clockStop)
+    * [clockReset](clockReset)
+    * [clockStartAll](clockStartAll)
+    * [clockStopAll](clockStopAll)
+    * [clockResetAll](clockResetAll)
+    * [messageSend](messageSend)
+    * [stageDisplaySets](stageDisplaySets)
+    * [stageDisplaySendMessage](stageDisplaySendMessage)
+    * [stageDisplayHideMessage](stageDisplayHideMessage)
+    * [stageDisplaySetIndex](stageDisplaySetIndex)
+* [Sent from server](sent-from-server)
+    * [clockNameChanged](clockNameChanged)
+    * [clockStopAll](clockStopAll)
+    * [audioTriggered](audioTriggered)
 
 ## Actions
 
