@@ -308,46 +308,7 @@ Returns telestrator settings
 }
 ```
 #### Response
-```
-{
-    "action": "presentationCurrent",
-    "presentation": {
-        "presentationSlideGroups": [
-            {
-                "groupName": "Group",
-                "groupColor": "0.2637968361377716 0.2637968361377716 0.2637968361377716 1",
-                "groupSlides": [
-                    {
-                        "slideEnabled": true,
-                        "slideNotes": "",
-                        "slideAttachmentMask": 0,
-                        "slideText": "Some text",
-                        "slideImage": ". . .",
-                        "slideIndex": "0",
-                        "slideTransitionType": -1,
-                        "slideLabel": "",
-                        "slideColor": ""
-                    },
-                    {
-                        "slideEnabled": true,
-                        "slideNotes": "",
-                        "slideAttachmentMask": 0,
-                        "slideText": "Some other text",
-                        "slideImage": ". . .",
-                        "slideIndex": "0",
-                        "slideTransitionType": -1,
-                        "slideLabel": "",
-                        "slideColor": ""
-                    }
-                ]
-            }
-        ],
-        "presentationName": "Untitled",
-        "presentationHasTimeline": 0,
-        "presentationCurrentLocation": "\/path\/to\/library\/Untitled.pro6"
-    }
-}
-```
+No response
 
 ### presentationTriggerIndex
 #### Description
@@ -384,13 +345,7 @@ Go to next slide
 }
 ```
 #### Response
-```
-{
-    "slideIndex": 3,
-    "action": "presentationTriggerIndex",
-    "presentationPath": "Untitled.pro6"
-}
-```
+
 
 ### presentationTriggerPrevious
 #### Description
@@ -842,5 +797,17 @@ Clock name was changed on ProPresenter
     "audioArtist": "",
     "action": "audioTriggered",
     "audioName": "Dramatic Sound Effect"
+}
+```
+
+### presentationTriggerIndex
+#### Description
+#### Parameters
+#### Request
+```
+{
+    "action": "presentationTriggerIndex",
+    "slideIndex": 3,
+    "presentationPath": "Untitled.pro6"
 }
 ```
