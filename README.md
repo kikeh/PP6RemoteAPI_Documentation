@@ -151,6 +151,34 @@ Returns messages information
 }
 ```
 
+### messageSend
+### Description
+Send front message
+### Request
+```
+{
+    "action": "messageSend",
+    "messageValues": ["22"],
+    "messageIndex": "2",
+    "messageKeys":["numero"]
+}
+```
+### Response
+No response
+
+### messageHide
+### Description
+Hide front message
+### Request
+```
+{
+    "action": "messageHide",
+    "messageIndex":"2"
+}
+```
+### Response
+No response
+
 ### libraryRequest
 #### Description
 Returns library information
